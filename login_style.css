@@ -1,0 +1,167 @@
+body{
+	font-family: 'Montserrat',sans-serif;
+	background: #ebf9fb;
+    margin: 0;
+    padding: 0;
+}
+
+.gambar1{
+    margin-left: -10px;
+    margin-top: -30px;
+}
+
+.logo {
+    text-align: center;
+    margin-top: -180px;
+    margin-bottom: -100px;
+}
+
+.logo img {
+	width: 270px;
+	height: auto;
+    margin-top: -200px;
+}
+
+.alrt {
+    text-align: center;
+    margin-top: -12px;
+    margin-bottom: 12px;
+}
+
+.alert {
+    text-align: center;
+    background-color: #b20000;
+    width: 100%;
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+
+.tulisan_login, .tulisan1{
+	text-align: center;
+}
+
+.tulisan_login {
+    margin-top: -12px;
+}
+
+.tulisan1 {
+    font-size: 28px;
+}
+
+.kotak_login{
+    margin-top:0px;
+	width: 350px;
+	background: white;
+	margin: 80px auto;
+	padding: 30px 20px;
+	box-shadow: 0px 0px 100px 4px #d6d6d6;
+    border-radius: 30px;
+}
+
+.form_login{
+    border-radius: 16px;
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+}
+
+.submit-btn {
+    text-align: center;
+}
+
+.submit-btn p {
+    text-decoration: underline;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+.submit-btn p:hover {
+    color: #61AFB3;
+}
+
+.tombol_login{
+	background: linear-gradient(to right, #183145, #61AFB3);
+	color: white;
+	font-size: 11pt;
+	width: 60%;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.tombol_login:hover{
+    transform: scale(1.05);
+    background: linear-gradient(to right, #61AFB3,#183145);
+}
+
+.gambar2 {
+    text-align: right;
+    margin-top: -180px;
+    margin-bottom: -180px;
+    margin-left: 80px;
+}
+
+.gambar2 img {
+    margin-left: -100px;
+    margin-top: -34px;
+    margin-bottom: 0px;
+}
+
+.pass_regis{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    gap: 8px;
+}
+
+.regist{
+    text-decoration: none;
+    color: #183145;
+    cursor: pointer;
+}
+
+.regist:hover {
+    transform: scale(1.05);
+    color: #61AFB3;
+    transition: transform 0.3s ease;
+}
+
+
+/* form registrasi */
+
+.tulisan_regis{
+    margin-top: -8px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.gambar2_regis {
+    text-align: right;
+    margin-top: -180px;
+    margin-bottom: -180px;
+    margin-left: 80px;
+}
+
+.gambar2_regis img {
+    margin-left: -100px;
+    margin-top: -120px;
+    margin-bottom: 0px;
+}
+
+.tulisan_registrasi{
+    text-align: center;
+    font-size: 16px;
+    margin-top: -16px;
+}

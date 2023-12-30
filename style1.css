@@ -1,0 +1,249 @@
+/* Reset CSS */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    height: 56px;
+    width: 1420px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    gap: 4px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 16px;
+    margin-left: 632px;
+}
+
+nav ul li{
+    margin-left: 19px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #183145;
+}
+
+nav ul li button{
+    background-color: #61afb3;
+    border: none;
+    border-radius: 20px;
+    height: 32px;
+    margin-top: -32px;
+    transition: transform 0.3s ease;
+}
+
+nav ul li button:hover{
+    background-color: #b30000;
+    border: none;
+    border-radius: 20px;
+    height: 32px;
+    margin-top: -32px;
+    transform: scale(1.05);
+}
+
+nav ul li img{
+    margin-left: 16px;
+    width: 32px;
+    height: auto;
+    margin-top: -4px;
+}
+
+nav ul li p{
+    margin-top: -2px;
+    margin-left: -4px;
+}
+
+nav ul li button a{
+    color: #fff;
+    margin: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+
+.header1 {
+    height: 300px;
+    width: 1400px;
+    background: linear-gradient(to right, #183145, #61AFB3);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header1 h1 {
+    color: #fff;
+    font-size: 76px;
+    padding-top: 8px;
+
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+.section1 {
+    display: flex;
+}
+
+.section2 {
+    margin-top: 128px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
+
+.section2 p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.gambar1 {
+    height: 296px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.ket1 {
+    margin-top: 100px;
+    margin-left: 132px;
+    font-size: 24px;
+    width: 561px;
+    text-align: center;
+}
+
+.header1 h3 {
+    color: #fff;
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+.section3 {
+    margin-top: 48px;
+    display: flex;
+    width: 1200px;
+    margin-left: 103px;
+}
+
+.section3 p {
+    font-size: 20px;
+    text-align: left;
+    width: 840px;
+}
+
+.gambar2 {
+    height: 280px;
+    width: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.gambar3 {
+    width: 1440px;
+    margin-bottom: -10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 1420px;
+}
+
+/* Logo Styles */
+.logo-nav {
+    margin-top: -10px;
+    margin-left: 10px;
+    width: 128px;
+    height: auto;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* About Page */
+
+.about1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.aket1 {
+    width: 1100px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.aket1 p {
+    margin-top: 8px;
+}
+
+/* Kontak */
+
+.kontak1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.kontak1 h2 {
+    font-size: 44px;
+    width: 300px;
+    text-align: left;
+}
+
+.kontak1 p {
+    font-size: 16px;
+    text-align: left;
+    width: 400px
+}
+
+.gambar5 {
+    width: 288px;
+    padding-top: 20px;
+    padding-left: 240px;
+}
+
+.kontak2 {
+    margin-top: 32px;
+}
+
